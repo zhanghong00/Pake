@@ -20,8 +20,7 @@ console.log('targets type? only for Linux: ', process.env.TARGETS);
 console.log('===========================\n');
 
 cd('node_modules/pake-cli');
-// let params = `node cli.js ${process.env.URL} --name ${process.env.NAME} --height ${process.env.HEIGHT} --width ${process.env.WIDTH}`;
-let params = `node cli.js ${process.env.URL} --name ${process.env.NAME_ZH} --height ${process.env.HEIGHT} --width ${process.env.WIDTH}`;
+let params = `node cli.js ${process.env.URL} --name ${process.env.NAME} --height ${process.env.HEIGHT} --width ${process.env.WIDTH}`;
 
 if (process.env.TRANSPARENT === 'true') {
   params = `${params} --transparent`;
