@@ -77,6 +77,12 @@
       "title": "WeRead",
       "name_zh": "微信阅读",
       "url": "https://weread.qq.com/"
+    },
+    {
+      "name": "crm",
+      "title": "CRM",
+      "name_zh": "乾动智慧养殖",
+      "url": "https://mgnt.qdhslc.com/"
     }
   ]
 }
